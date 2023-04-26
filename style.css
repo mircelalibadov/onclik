@@ -1,0 +1,28 @@
+img{
+    
+width: 200px;
+height: 200px;
+border-radius: 10px;
+transition: 200ms;
+
+}
+.canli{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#photoes{
+display: flex;
+justify-content: center;
+gap: 20px;
+
+}
+
+.canli>img{
+    width: 400px;
+    height: 300px;
+}
+img:hover{
+transform: scale(1.1);
+
+}
